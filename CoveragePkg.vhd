@@ -750,8 +750,8 @@ package CoveragePkg is
 
   ------------------------------------------------------------
   -- Utilities.  Remove if added to std.standard
-  function to_integer ( B : boolean ) return integer ;
-  function to_integer ( SL : std_logic ) return integer ;
+  --function to_integer ( B : boolean ) return integer ;
+  --function to_integer ( SL : std_logic ) return integer ;
   function to_integer_vector ( BV : boolean_vector ) return integer_vector ;
   function to_integer_vector ( SLV : std_logic_vector ) return integer_vector ;
   
